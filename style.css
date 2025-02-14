@@ -1,0 +1,52 @@
+/* Style du fond */
+body {
+    background-color: #b3e6b3; /* Vert clair */
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* Style des sections */
+#register, #userAdd, #userShare {
+    background: #e6ffe6; /* Très clair pour le contraste */
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    margin: 50px auto;
+    box-shadow: 0 0 10px rgba(0, 128, 0, 0.2); /* Ombre verte légère */
+}
+
+/* Style des boutons */
+input[type="submit"] {
+    background-color: #28a745; /* Vert moyen */
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 10px;
+}
+
+input[type="submit"]:hover {
+    background-color: #218838; /* Vert un peu plus foncé */
+}
+
+/* Style des champs de texte */
+input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0;
+    border: 1px solid #8fbc8f; /* Vert pâle */
+    border-radius: 5px;
+}
+
+/* Style du conteneur des participants */
+#participants {
+    margin-top: 20px;
+    padding: 20px;
+    background: #ccffcc; /* Vert pastel */
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 128, 0, 0.2);
+}
